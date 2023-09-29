@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between  ;
+    background-color: #212121;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: all .3s ease-in-out;
+}
+
+article, form {
+    border: 2px solid silver;
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+article h2 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+article img {
+    margin-top: 10px;
+    width: 800px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+input, textarea, select {
+    background-color: #f1f1f1;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 13px;
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+input:hover {
+    border-color: rgba(93,93,225,255.5)
+}
+input:active {
+    border-color: #5D5DE1;
+}
+input:focus, select:focus {
+    border-color: #5D5DE1;
+}
+header a:hover {
+    color: violet;
+    font-weight:700;
+}
+
+header a:active, select:active {
+    color: blue;
+}
+
+li {
+    text-decoration: none;
+}
+ul, ol {
+    list-style-position: inside;
+    margin: 5px;
+}
+
+li {
+    padding: 5px;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+form h2 {
+    border-left: 10px solid purple;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.field {
+    margin-top: 20px;
+}
+
+textarea {
+    min-height: 150px;
+}
+
+button {
+    display: block;
+    border: 2px solid transparent #f1f1f1;
+    margin-top: 20px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 13px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: violet;
+    transition: all .3s ease-in-out;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+}
+aside {
+    background-color: gray;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+.layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    flex: 0 0 20%;
+}
+
+main {
+    flex: 0 0 58%;
+}
+
+aside img {
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 13px;
+}
+
+aside video {
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 13px ;
+}
